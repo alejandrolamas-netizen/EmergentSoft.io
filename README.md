@@ -2,42 +2,53 @@
 
 **AI Infrastructure for Enterprise Autonomy**
 
-## What it is
+EmergentSoft builds governed AI infrastructure and enterprise software for organizations that need AI systems to operate inside real business workflows.
 
-EmergentSoft develops infrastructure and enterprise products for intelligent, autonomous and tokenized businesses.
+## Portfolio map
 
-## Business problem
-
-Organizations need AI that can operate inside governed business infrastructure—not isolated chat interfaces. EmergentSoft connects orchestration, security, digital agents, digital twins and tokenized assets into deployable enterprise systems.
+| Layer | Repository / product | Public status |
+|---|---|---|
+| Corporate | **EmergentSoft.io** | Corporate technical index |
+| Digital workforce | **EmergentSoft-Mates** | Architecture baseline; implementation recovery in progress |
+| Healthcare digital twin | **MeDigtwin-** | AWS-oriented working prototype with deployment infrastructure |
+| Security | **sentinel-guardian** | Prototype / security architecture |
+| Orchestration | **aether-os-kernel** | Architecture / kernel concept |
+| RWA / financial rails | **Greeenledger-Desbank-eth** | EVM implementation / Base track |
+| RWA / financial rails | **GreenLedger-Desbank-Arbitrum** | Arbitrum implementation track |
+| Legacy protocol | **desbank-protocol** | Legacy / historical implementation |
 
 ## Product architecture
 
 `Enterprise Infrastructure → M8s → Digital Mates → Security & Orchestration → Digital Twins / RWA → Business Outcomes`
 
-### Core products
+### Core portfolio
 
 - **M8s / Mates** — governed enterprise AI workforce and specialized Digital Mates
-- **Sentinel** — security and integrity layer
-- **AetherOS** — sovereign orchestration infrastructure
-- **GreenLedger / Desbank** — RWA tokenization and financial rails
+- **Sentinel** — security and integrity component
+- **AetherOS** — orchestration infrastructure concept
+- **GreenLedger / Desbank** — RWA tokenization and financial-rail infrastructure
 - **Hospeda AI** — hospitality automation
-- **Emergent Twins** — digital-twin simulation for operations and growth
+- **Emergent Twins** — operational digital-twin simulation
 
-## Commercial model
+## Evidence policy
 
-EmergentSoft commercializes enterprise software through pilots, SaaS, implementation, infrastructure modules, usage-based services and specialized enterprise deployments.
+EmergentSoft distinguishes between **implemented software, working prototypes, architecture baselines, experimental tracks and roadmap items**.
 
-## Evidence & status
+Repository contents establish implementation evidence only for the code and configuration actually present. A README, architecture diagram or integration reference does not by itself establish:
 
-This repository is the public technical entry point. Product capabilities, deployment status and external validation should be supported by repository evidence or independently verifiable sources.
+- production deployment;
+- regulatory or security certification;
+- third-party partnership, sponsorship or endorsement;
+- live blockchain deployment;
+- AWS Marketplace availability;
+- clinical validation; or
+- performance guarantees.
+
+External claims should be supported by independently verifiable evidence.
 
 ## Security & IP
 
-See [`SECURITY.md`](SECURITY.md) and [`LICENSE`](LICENSE).
-
-## Documentation
-
-Technical evidence lives in the product repositories; strategic and commercial documentation is maintained across the EmergentSoft documentation system.
+See each repository's `SECURITY.md` and `LICENSE`. Product repositories may contain proprietary EmergentSoft material unless a specific license states otherwise.
 
 ## Commercial contact
 
