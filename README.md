@@ -10,11 +10,11 @@ EmergentSoft builds governed AI infrastructure and enterprise software for organ
 |---|---|---|
 | Corporate | **EmergentSoft.io** | Corporate technical index |
 | Digital workforce | **EmergentSoft-Mates** | Architecture baseline; implementation recovery in progress |
-| Healthcare digital twin | **MeDigtwin-** | AWS-oriented working prototype with deployment infrastructure |
-| Security | **sentinel-guardian** | Prototype / security architecture |
+| Healthcare digital twin | **MeDigtwin-** | Synthetic-data operational twin; CI/security hardening and API load-probe harness in open PR #21 (7/7 checks passed) |
+| Security | **sentinel-guardian** | Python static-analysis prototype in open PR #2 (CI passed); broader security monitoring remains roadmap |
 | Orchestration | **aether-os-kernel** | Architecture / kernel concept |
 | RWA / financial rails | **Greeenledger-Desbank-eth** | EVM implementation / Base track |
-| RWA / financial rails | **GreenLedger-Desbank-Arbitrum** | Arbitrum implementation track |
+| RWA / financial rails | **GreenLedger-Desbank-Arbitrum** | Arbitrum implementation track; Foundry build/unit/invariant CI in open PR #1 passed |
 | Legacy protocol | **desbank-protocol** | Legacy / historical implementation |
 
 ## Product architecture
