@@ -21,7 +21,27 @@ EmergentSoft builds governed AI infrastructure and enterprise software for organ
 
 `Enterprise Infrastructure → M8s → Digital Mates → Security & Orchestration → Digital Twins / RWA → Business Outcomes`
 
-### Core portfolio
+### NVIDIA DSX / AI Factory technical alignment
+
+EmergentSoft is preparing an engineering exploration of how governed enterprise AI workloads and operational digital twins can be evaluated on modern AI factory infrastructure.
+
+The initial demonstrator is **MedDigtwin**, a synthetic-data operational digital twin. Its workload profile can be used to explore scheduling, inference serving, workload observability and cluster operations. The portfolio also includes agent orchestration and security research tracks that may inform later experiments.
+
+| Infrastructure concern | Candidate NVIDIA ecosystem area | Evidence status |
+|---|---|---|
+| Inference serving and request lifecycle | NVIDIA Dynamo | Exploration target; no integration claimed |
+| GPU workload scheduling | Run:ai / KAI Scheduler | Exploration target; no integration claimed |
+| Kubernetes GPU operations | GPU Operator / NVIDIA AI Cluster Runtime | Exploration target; no integration claimed |
+| Workload and fleet observability | Workload Map / Fleet Intelligence | Exploration target; no integration claimed |
+| Model artifact delivery | Model Streamer | Exploration target; no integration claimed |
+
+**Demonstration principle:** publish reproducible workload definitions, pinned software versions, raw benchmark results and resource measurements. Compare CPU and GPU execution only when the implementations and test conditions are equivalent.
+
+This is a technical alignment and exploration plan. It does not imply NVIDIA partnership, endorsement, certification, funding or an existing DSX deployment.
+
+See [NVIDIA DSX Technical Brief](docs/NVIDIA-DSX-TECHNICAL-BRIEF.md) for scope, evidence requirements and proposed demonstrations.
+
+## Core portfolio
 
 - **M8s / Mates** — governed enterprise AI workforce and specialized Digital Mates
 - **Sentinel** — security and integrity component
