@@ -92,3 +92,23 @@ Only after Stage A-D are reproducible, assess whether Mates, Sentinel or industr
 - We are preparing a reproducible integration path for AI Factory infrastructure concepts.
 
 Do not claim NVIDIA endorsement, certification, partnership, DSX integration, production readiness or measured GPU acceleration without independent evidence.
+
+
+## 8. Current repository evidence (7 November 2026)
+
+The following evidence is available on open pull-request branches and has not yet been merged into each repository's `main` branch:
+
+| Workstream | Verifiable change | Validation status | Boundary |
+|---|---|---|---|
+| MedDigtwin | API/infrastructure CI, Python + TypeScript CodeQL, Gitleaks, dependency checks, synthetic API load-probe harness | 7/7 checks passed on PR head `1726b61f6aadbd32c59afc3faff7a9c9831a002a` | Load probe measures HTTP service behavior, not GPU inference |
+| Sentinel | AST-based Python checks for selected risky constructs, structured findings and eight unit tests | CI passed on PR head `443b49df490db3223bd458213ba3cb8dfca328ed` | Narrow prototype; no data-flow analysis, runtime monitoring or auto-remediation |
+| GreenLedger Arbitrum | Foundry workflow with pinned dependencies, contract build, unit and invariant tests | Build and test job passed on PR head `359a5f75004cea122e4e3ff2735278bddeed62e7` | Smart-contract validation only; no audit, live deployment, GPU workload or legal validation |
+| M8s / Mates | Architecture baseline and target monorepo specification | Documentation only | Not a completed multi-agent production platform |
+| AetherOS | Orchestration/kernel concept | Documentation only | Not a completed production kernel |
+
+Relevant review links:
+- [MedDigtwin PR #21](https://github.com/alejandrolamas-netizen/MeDigtwin-/pull/21)
+- [Sentinel PR #2](https://github.com/alejandrolamas-netizen/sentinel-guardian/pull/2)
+- [GreenLedger Arbitrum PR #1](https://github.com/alejandrolamas-netizen/GreenLedger-Desbank-Arbitrum/pull/1)
+
+These are repository-level engineering checks. They are not NVIDIA integration results and do not establish production readiness.
